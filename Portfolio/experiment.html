@@ -1,0 +1,171 @@
+<!DOCTYPE>
+<html>
+    <head>
+    <meta charset="utf-8"  />  
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:700" rel="stylesheet">
+<title></title> 
+        <style>
+            
+        .float a:hover img {
+            transition: all 0.5s ease-in-out;
+            transform:scale(1.20);
+    }
+  
+             #list1 {
+            list-style: none;
+            text-align: center;
+            margin-top: 125px;
+            
+        }
+        
+        #list1 ul li {
+            display: inline;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            position: relative;
+            bottom: -80px;
+            right: 20px;
+        }
+        
+        #list2
+        {
+            list-style: none;
+            text-align: center;
+        }
+        
+        #list2 ul li {
+            display: inline;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            position: relative;
+            right: 20px;}
+        
+         #list3 {
+            list-style: none;
+            text-align: center;
+            padding-top: 125px;  
+        }
+        
+          #list3 ul li {
+            display: inline;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            position: relative;
+            top: -220px;
+            right: 20px;}
+        
+                       /*---HEADER---*/
+
+
+        
+     .header  ul {
+         
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    position: fixed;
+    width: 100%;
+    margin: auto 0;
+    margin-top: -7em;
+    background-color: white;
+    z-index: 2;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    color: #62AFFE; 
+    
+                    }
+        
+   
+        
+.header ul li {
+        display: inline-block;
+        margin: 20px;
+        text-decoration: none;        
+}
+
+      .header  ul a {
+            text-decoration: none;
+            color: #62AFFE;
+      }
+        
+       .header ul a:hover {
+            color: purple;}
+        
+        #marque ul li {
+            position: relative;
+            top: 50px;
+        }
+        
+            .imgdescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+
+.float:hover .imgdescription {
+  visibility: visible;
+  opacity: 1;
+}
+            
+        </style>
+    </head>
+    <body>
+        
+        <header class="header">
+    <ul>
+            <li class="navmove"> <a href="home.html">Home</a></li>
+            <li class="navmove"> <a href="work.html">Work</a></li>
+            <li id="marque"><img src="images/visualmarque.png" alt="My visual marque"></li>
+            <li class="navmove"> <a href="contact.html">Contact</a></li>
+            <li class="navmove">Blog</li>
+        </ul>
+    </header>
+    
+        <div id="list1">
+        <ul class="float">
+        <li><a href="images/Bodinitypeposter.jpg"><img src="images/diamond1.png"</a><p class="imgdescription">Bodini Type Poster</p></li>
+        <li><a href="images/Bodinitypeposter.jpg"><img src="images/diamond1.png"</a></li>
+        <li><a href="images/Bodinitypeposter.jpg"><img src="images/diamond1.png"</a></li>
+            </ul>
+                    </div>
+        
+        <div id="list2">
+         <ul class="float">
+        <li><a href="images/Bodinitypeposter.jpg"><img src="images/diamond1.png"</a></li>
+        <li><a href="images/Bodinitypeposter.jpg"><img src="images/diamond1.png"</a></li>
+        <li><a href="images/Bodinitypeposter.jpg"><img src="images/diamond1.png"</a></li>
+        <li><a href="images/Bodinitypeposter.jpg"><img src="images/diamond1.png"</a></li>
+            </ul>
+                    </div>
+        
+        <div id="list3">
+         <ul class="float">
+        <li><a href="images/Bodinitypeposter.jpg"><img src="images/diamond1.png"</a></li>
+        <li><a href="images/Bodinitypeposter.jpg"><img src="images/diamond1.png"</a></li>
+        <li><a href="images/Bodinitypeposter.jpg"><img src="images/diamond1.png"</a></li>
+            </ul>
+        </div>
+    
+    </body>
+    
+    
+</html>
